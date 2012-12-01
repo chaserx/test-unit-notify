@@ -176,7 +176,7 @@ module Test # :nodoc:
         base_dir = Pathname(__FILE__).dirname.parent.parent.parent.expand_path
         ICON_DIR = base_dir + "data" + "icons"
         def initialize
-          @theme = "kinotan"
+          @theme = "autotest_growl"
         end
 
         def attach_to_mediator(mediator)
